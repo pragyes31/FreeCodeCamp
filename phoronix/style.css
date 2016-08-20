@@ -180,25 +180,25 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 0vh;
+    margin-top: 0px;
 }
 
 .article {
     width: 60vw; 
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .article-heading {
     width: inherit;
-    margin-bottom: 0.5vh;
+    margin-bottom: 5px;
     color: seagreen;
 }
 
 .article-content {
     width: inherit;
-  margin-top : 0.5vh;
-    margin-bottom: 0.5vh;
+  margin-top : 5px;
+    margin-bottom: 5px;
 }
 
 .small-info {
@@ -270,20 +270,20 @@ aside {
 .left-footer {
     width: 45vw;
     display: flex;
-    margin-top: 3vh;
+    margin-top: 25px;
 }
 
 .premium {
     width: 15vw;
-    margin-left: 1vw;
+    margin-left: 15px;
 }
 
 .share {
-    margin-left: 1vw;
+    margin-left: 15px;
 }
 
 .right-footer {
-    margin-top: 3vh;
+    margin-top: 25px;
     width: 30vw;
 }
 
@@ -294,15 +294,15 @@ aside {
 
 
 .left-footer-links {
-    margin-bottom: 0.5vw;
+    margin-bottom: 10px;
     text-decoration: none;
 }
 
 .subheadings {
     border-bottom: 1px solid black;
-    margin-bottom: 3vh;
+    margin-bottom: 15px;
 }
 
 .line-height {
-    line-height: 4vh;
+    line-height: 25px;
 }
