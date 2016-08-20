@@ -270,10 +270,11 @@ aside {
 .left-footer {
     width: 45vw;
     display: flex;
+    margin-top: 3vh;
 }
 
 .premium {
-    width:15vw;
+    width: 15vw;
     margin-left: 1vw;
 }
 
@@ -291,14 +292,17 @@ aside {
     flex-direction: column;
 }
 
-a {
-    text-decoration: none;
-}
 
 .left-footer-links {
     margin-bottom: 0.5vw;
+    text-decoration: none;
 }
 
-h4 {
+.subheadings {
     border-bottom: 1px solid black;
+    margin-bottom: 3vh;
+}
+
+.line-height {
+    line-height: 4vh;
 }
