@@ -225,27 +225,24 @@ aside {
 }
 
 .popular-news {
-    height: 75vh;
     width: 25vw;
 }
 
 .popular-forum {
-    height: 65vh;
     width: 25vw;
 }
 
 .ad3 {
-    height: 100vh;
     width: 25vw;
+    height: 100vh;
 }
 
 .featured-articles {
-    height: 40vh;
     width: 25vw;
 }
 
 .popular-articles {
-    height: 90vh;
+    
     width: 25vw;
 }
 
@@ -255,16 +252,15 @@ aside {
 }
 
 .support {
-    height: 35vh;
     width: 25vw;    
 }
 
 .aside-p {
-    
+    margin: 10px 0 3px 0;
 }
 
 .footer {
     width: 100vw;
-    height: 35vh;
+    height: 45vh;
     background-color: gray;
 }
