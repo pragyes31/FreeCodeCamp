@@ -1,4 +1,3 @@
-
 html, body {
   margin:0px;
   padding:0px;
@@ -257,10 +256,36 @@ aside {
 
 .aside-p {
     margin: 10px 0 3px 0;
+    color: seagreen;
 }
 
 .footer {
     width: 100vw;
     height: 45vh;
     background-color: gray;
+    display: flex;
+    justify-content: space-between
+}
+
+.left-footer {
+    width: 44discordvw;
+    margin-left: 5vw;
+    display: flex;
+}
+
+.media, .premmium, .share {
+    width: 20vw;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+    text-decoration: none;
+}
+.right-footer {
+    width: 25vw;
 }
