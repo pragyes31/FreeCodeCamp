@@ -264,28 +264,24 @@ aside {
     height: 45vh;
     background-color: gray;
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
 }
 
 .left-footer {
-    width: 44discordvw;
-    margin-left: 5vw;
+    width: 45vw;
     display: flex;
 }
 
-.media, .premmium, .share {
-    width: 20vw;
+.right-footer {
+    margin-top: 3vh;
+    width: 30vw;
 }
 
 .link-list {
     display: flex;
     flex-direction: column;
-    
 }
 
 a {
     text-decoration: none;
-}
-.right-footer {
-    width: 25vw;
 }
