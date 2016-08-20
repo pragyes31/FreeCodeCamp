@@ -272,6 +272,15 @@ aside {
     display: flex;
 }
 
+.premium {
+    width:15vw;
+    margin-left: 1vw;
+}
+
+.share {
+    margin-left: 1vw;
+}
+
 .right-footer {
     margin-top: 3vh;
     width: 30vw;
@@ -284,4 +293,12 @@ aside {
 
 a {
     text-decoration: none;
+}
+
+.left-footer-links {
+    margin-bottom: 0.5vw;
+}
+
+h4 {
+    border-bottom: 1px solid black;
 }
