@@ -283,8 +283,9 @@ aside {
 }
 
 .right-footer {
-    margin-top: 25px;
+    margin-top: 40px;
     width: 30vw;
+    color: white;
 }
 
 .link-list {
@@ -296,13 +297,23 @@ aside {
 .left-footer-links {
     margin-bottom: 10px;
     text-decoration: none;
+    color:white;
 }
 
 .subheadings {
-    border-bottom: 1px solid black;
+    border-bottom: 1.5px solid black;
     margin-bottom: 15px;
+    color: white;
+    padding-bottom: 13px;
+    
 }
 
 .line-height {
     line-height: 25px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    color:white;
+    text-decoration: none;
 }
