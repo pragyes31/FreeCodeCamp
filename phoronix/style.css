@@ -193,6 +193,9 @@ section {
     width: inherit;
     margin-bottom: 5px;
     color: seagreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .article-content {
@@ -261,29 +264,31 @@ aside {
 
 .footer {
     width: 100vw;
-    height: 45vh;
-    background-color: gray;
+    height: 50vh;
+    background-color: #4d4d4d;
     display: flex;
     justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
 }
 
 .left-footer {
     width: 45vw;
     display: flex;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 .premium {
     width: 15vw;
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 .share {
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 .right-footer {
-    margin-top: 40px;
+    margin-top: 50px;
     width: 30vw;
     color: white;
 }
@@ -301,10 +306,11 @@ aside {
 }
 
 .subheadings {
-    border-bottom: 1.5px solid black;
+    border-bottom: 2px solid white;
     margin-bottom: 15px;
     color: white;
     padding-bottom: 13px;
+    font-weight: bolder;
     
 }
 
@@ -316,4 +322,8 @@ aside {
     text-transform: capitalize;
     color:white;
     text-decoration: none;
+}
+
+.right-footer > a {
+    font-weight: bolder;
 }
