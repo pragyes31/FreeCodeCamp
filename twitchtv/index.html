@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Twitch TV</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    </head>
-    <body>
-        <div class="container">
-          <div class="row">
-             <div class="col-xs-12 h1 text-center">
-              Twitch TV
-             </div>
-          </div>
-             <div class="row">
-               <div class="col-xs-4 radio-button">
-                  <label for="all">All</label>
-                  <input type="radio" value="all" name="channel-status">
-               </div>
-               <div class="col-xs-4 radio-button">
-                  <label for="Online">Online</label>
-                  <input type="radio" value="Online" name="channel-status">
-                  </div>
-               <div class="col-xs-4 radio-button">
-                  <label for="Offline">Offline</label>
-                  <input type="radio" value="Offline" name="channel-status">
-               </div>
-             </div>
-             <hr>
-             <div class="user-info">
-              <div class="row">
-             	<div class="profile-photo col-xs-4">
-             		<img src="twitchimages/esl_dp" alt="player-image">
-             	</div>
-             	<div class="username col-xs-8"></div>
-              </div>
-              <div class="row game-name">
-              	<div class="col-xs-12">
-              		StarCraft II: RERUN: StarCraft 2 - LiquidMaNa vs. Happy (PvT) 
-              	</div>
-              </div>
-             </div>
-             
+
+<head>
+  <title>Twitch TV</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 h1 text-center">
+        Twitch TV
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 radio-button">
+        <label for="all">All</label>
+        <input type="radio" value="all" name="channel-status">
+      </div>
+      <div class="col-xs-4 radio-button">
+        <label for="Online">Online</label>
+        <input type="radio" value="Online" name="channel-status">
+      </div>
+      <div class="col-xs-4 radio-button">
+        <label for="Offline">Offline</label>
+        <input type="radio" value="Offline" name="channel-status">
+      </div>
+    </div>
+    <hr>
+    <div class="user-info">
+      <div class="row">
+        <div class="profile-photo col-xs-4">
+          <img src="twitchimages/esl_dp" alt="player-image" class="img img-responsive">
         </div>
-        <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-    </body>
+        <div class="username col-xs-8">
+          <a href="https://www.twitch.tv/esl_sc2" class="h2">ESL_SC2</a>
+        </div>
+      </div>
+      <div class="row game-name">
+        <div class="col-xs-12 h2">
+          StarCraft II: RERUN: StarCraft 2 - LiquidMaNa vs. Happy (PvT)
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+</body>
+
 </html>
